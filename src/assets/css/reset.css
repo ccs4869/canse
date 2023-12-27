@@ -1,0 +1,38 @@
+html,body {
+  margin: 0;
+  padding:0;
+  font-family: 'Inter';
+  transition: background-color .2s linear,color .2s linear;
+}
+
+a {
+  /* text-decoration: underline; */
+  /* color:#000; */
+  color: inherit;
+  opacity: .7;
+
+}
+
+a:hover {
+  /* text-decoration:underline;  */
+  /* color:#000; */
+  /* outline: auto; */
+  opacity: 1;
+  /* font-weight: bold; */
+}
+
+.dark {
+  color:white;
+  background-color: #000;
+}
+
+.routes {
+  display: inline-block;
+  text-decoration: none;
+  opacity: .6;
+}
+.routes:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}

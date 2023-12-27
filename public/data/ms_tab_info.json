@@ -1,0 +1,25 @@
+[ 
+  {
+    "id":"1",
+    "title":"首页",
+    "icon":"e62a",
+    "path":"/user",
+    "children":[
+      { "id": "1-1", "sub_title": "代办事项", "path": "/user/todo" ,"icon":"e6a2"},
+      { "id": "1-2", "sub_title": "评论信息", "path": "/user/message","icon":"f298"},
+      { "id": "1-3", "sub_title": "数据展示", "path": "/user/data","icon": "e67a"}
+    ]
+  },
+  {
+    "id":"2",
+    "title":"表格",
+    "icon":"intro",
+    "path":"/user/table",
+    "children":[
+      { "id": "2-1", "sub_title": "拖拽表格", "path": "/user/table/drag" },
+      { "id": "2-2", "sub_title": "待完成", "path": "/user/table/comment" },
+      { "id": "2-3", "sub_title": "待完成", "path": "/user/table/dropcard" }
+    ]
+  }
+ 
+]

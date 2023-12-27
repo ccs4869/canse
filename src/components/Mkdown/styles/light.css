@@ -1,0 +1,40 @@
+/*!
+  Theme: Atelier Dune Light
+  Author: Bram de Haan (http://atelierbramdehaan.nl)
+  License: ~ MIT (or more permissive) [via base16-schemes-source]
+  Maintainer: @highlightjs/core-team
+  Version: 2021.09.0
+*/
+.light pre { margin: 0; }
+.light pre code.hljs{display:block;overflow-x:auto;padding:1em}
+.light code.hljs{padding:3px 5px}
+.light .hljs{color:#6e6b5e;background:#f8f8f8}
+.light .hljs ::selection,.hljs::selection{background-color:#a6a28c;color:#6e6b5e}
+.light .hljs-comment{color:#999580}
+.light .hljs-tag{color:#7d7a68}
+.light .hljs-operator,.hljs-punctuation,.hljs-subst{color:#6e6b5e}
+.light .hljs-operator{opacity:.7}
+.light .hljs-bullet,.hljs-deletion,.hljs-name,.hljs-selector-tag,.hljs-template-variable,.hljs-variable{color:#d73737}
+.light .hljs-attr,.hljs-link,.hljs-literal,.hljs-number,.hljs-symbol,.hljs-variable.constant_{color:#b65611}
+.light .hljs-class .hljs-title,.hljs-title,.hljs-title.class_{color:#ae9513}
+.light .hljs-strong{font-weight:700;color:#ae9513}
+.light .hljs-addition,.hljs-code,.hljs-string,.hljs-title.class_.inherited__{color:#60ac39}
+.light .hljs-built_in,.hljs-doctag,.hljs-keyword.hljs-atrule,.hljs-quote,.hljs-regexp{color:#1fad83}
+.light .hljs-attribute,.hljs-function .hljs-title,.hljs-section,.hljs-title.function_,.ruby .hljs-property{color:#6684e1}
+.light .diff .hljs-meta,.hljs-keyword,.hljs-template-tag,.hljs-type{color:#b854d4}
+.light .hljs-emphasis{color:#b854d4;font-style:italic}
+.light .hljs-meta,.hljs-meta .hljs-keyword,.hljs-meta .hljs-string{color:#d43552}
+.light .hljs-meta .hljs-keyword,.hljs-meta-keyword{font-weight:700}
+.md.light code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+}
+
+.md.light blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}

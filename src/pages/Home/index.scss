@@ -1,0 +1,22 @@
+@media (max-width:720px) {
+  .main {
+    font-family: "Inter";
+    /* color: #555; */
+    padding: 40px 45px;
+    padding-top: 0;
+    width: 300px;
+    margin: 0 auto;
+    &-title {
+      font-size: 36px;
+      margin-bottom: 30px;
+      // color: black;
+    }
+    &-article {
+      margin: 20px 0;
+      opacity: 0.8;
+      p {
+        line-height: 1.8;
+      }
+    }
+  }
+}
